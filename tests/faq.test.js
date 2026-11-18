@@ -43,5 +43,5 @@ test("rendering escapes HTML and keeps simple Markdown", () => {
   const html = F.render("<script>x</script> **bold**\nwrapped line\n\n- one\n  continued\n- two [Docs](METHODOLOGY.md)");
   assert.ok(!html.includes("<script>"));
   assert.match(html, /<p>&lt;script&gt;x&lt;\/script&gt; <b>bold<\/b> wrapped line<\/p>/);
-  assert.match(html, /<ul><li>one continued<\/li><li>two <a href="https:\/\/github.com\/Blop77\/cyclone-sentinel\/blob\/main\/docs\/METHODOLOGY.md"/);
+  assert.match(html, /<ul><li>one continued<\/li><li>two <a href="https:\/\/github.com\/faazkhn\/cyclone-sentinel\/blob\/main\/docs\/METHODOLOGY.md"/);
 });
