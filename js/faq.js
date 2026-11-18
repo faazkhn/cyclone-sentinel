@@ -13,7 +13,7 @@
   "use strict";
 
   const DOCS = { faq: "docs/FAQ.md", readme: "README.md", methodology: "docs/METHODOLOGY.md" };
-  const REPO = "https://github.com/Blop77/cyclone-sentinel/blob/main/docs/";
+  const REPO = "https://github.com/faazkhn/cyclone-sentinel/blob/main/docs/";
   const STARTERS = [
     "What problem does it solve?",
     "How accurate is it?",

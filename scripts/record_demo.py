@@ -375,7 +375,7 @@ async def main():
         await scene("outro")
         await page.evaluate("""demoCard(`<div class="big">🌀</div><h1>CycloneSentinel</h1>
             <p>From satellite to action — before landfall.</p>
-            <p style="font-size:22px">blop77.github.io/cyclone-sentinel · github.com/Blop77/cyclone-sentinel · Team Nebula Nomads</p>`)""")
+            <p style="font-size:22px">faazkhan.in/cyclone-sentinel · github.com/faazkhn/cyclone-sentinel · Team Nebula Nomads</p>`)""")
         await page.wait_for_timeout(3500)
         await scene("end")
         await page.wait_for_timeout(1200)

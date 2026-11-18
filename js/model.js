@@ -546,7 +546,7 @@
   const xml = (v) => String(v).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
   /** OASIS Common Alerting Protocol 1.2 — the format used by India's SACHET alert platform. */
-  function toCAP(adv, { status = "Exercise", sender = "cyclonesentinel@blop77.github.io", sent = new Date() } = {}) {
+  function toCAP(adv, { status = "Exercise", sender = "cyclonesentinel@faazkhan.in", sent = new Date() } = {}) {
     const iso = (d) => new Date(d).toISOString().replace(/\.\d{3}Z$/, "+00:00");
     const expires = new Date(Math.max(new Date(adv.onset).getTime(), sent.getTime()) + 48 * 3600e3);
     return `<?xml version="1.0" encoding="UTF-8"?>

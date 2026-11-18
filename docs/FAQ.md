@@ -224,10 +224,10 @@ each state's language (Tamil, Gujarati, Marathi, Malayalam…).
 * Higher-resolution coastline, elevation and surge models (e.g. ADCIRC, IMD surge guidance).
 
 ### Where can I see the demo, video and code?
-* Live demo: https://blop77.github.io/cyclone-sentinel/
+* Live demo: https://faazkhan.in/cyclone-sentinel/
 * Demo video: https://youtu.be/OTejnvAFbVE
 * Story film (1:38): https://youtu.be/Ol7tlkoZ4yE
-* Code: https://github.com/Blop77/cyclone-sentinel
+* Code: https://github.com/faazkhn/cyclone-sentinel
 
 ### How does this FAQ chatbot work?
 If Gemini is available (through the Cloud Run backend or your own key in ⚙ Settings), your question is sent to
